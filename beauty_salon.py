@@ -40,9 +40,6 @@ class Beautician(Person):
 @dataclass
 class NailsMaster(Person):
 
-    def __str__(self):
-        return f"Nails Master with name -> {self.name}"
-
     def get_info(self):
         return "Person that doing manicure"
     
@@ -52,3 +49,7 @@ class NailsMaster(Person):
         process_of_manicure = {"Correction": 100, "Nail extension": 200, "Gel coating": 150}
         price = reduce(lambda x, y: x + y, process_of_manicure.values())
         return price
+
+
+    def __str__(self):
+        return f"Nails Master with name -> {self.name}"
