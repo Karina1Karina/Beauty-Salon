@@ -1,5 +1,4 @@
-from ..employee.beautician import Beautician
-from ..employee.nails_master import NailsMaster
+from .employee import Beautician, NailsMaster
 
 
 class BeautySalon:

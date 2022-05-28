@@ -1,6 +1,6 @@
-from . import person
-from . import beautician
-from . import nails_master
+from .person import Person
+from .beautician import Beautician
+from .nails_master import NailsMaster
 
 
-__all__ = [person, beautician, nails_master]
+__all__ = [Person, Beautician, NailsMaster]
