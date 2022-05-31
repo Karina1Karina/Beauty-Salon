@@ -15,7 +15,7 @@ class BeautySalon:
     
     @staticmethod
     def description():
-        return "This salon provides the following services: manicure, makeup."
+        return "This salon provides the following services: manicure, make-up."
 
     def makeup_procedure(self, makeup: Beautician):
         BeautySalon.suma += makeup.do_makeup()
